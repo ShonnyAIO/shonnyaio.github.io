@@ -185,6 +185,6 @@ themeButton.addEventListener('click', () => {
 
 /* SENDING EMAIL FROM JAVASCRIPT */
 function sendMail() {
-    var link = "mailto:jonathan.torres.8096@gmail.com?" + "&subject=" + encodeURIComponent(document.getElementById('contact_subject').value) + "&body=" + encodeURIComponent(document.getElementById('contact_message').value);
+    let link = "https://mail.google.com/mail/?view=cm&fs=1&to=jonathan.torres.8096@gmail.com" + "&su=" + encodeURIComponent(document.getElementById('contact_subject').value) + "&body=" + encodeURIComponent(document.getElementById('contact_message').value);
     window.location.href = link;
 }
