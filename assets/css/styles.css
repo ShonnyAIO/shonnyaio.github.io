@@ -301,7 +301,7 @@ img{
 }
 
 .home__blob-img{
-    width: 140px;
+    width: 290px;
 }
 
 .home__data{
@@ -364,10 +364,13 @@ img{
 .button--white{
     background-color: #fff;
     color: var(--first-color);
+    transition: 1.5s;
 }
 
 .button--white:hover{
-    background-color: #fff !important;
+    background-color: rgba(255, 255, 255, 0.24) !important;
+    color: var(--first-color) !important;
+    transition: 1.5s;
 }
 
 .button:hover{
@@ -383,6 +386,7 @@ img{
 .button--flex{
     display: inline-flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .button--small{
